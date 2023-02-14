@@ -1,0 +1,22 @@
+{
+  "name": "winston-kafka",
+  "version": "0.1.0",
+  "description": "A Kafka Transport for Winston",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "winston",
+    "transport",
+    "kafka"
+  ],
+  "author": "Jerry Sievert <code@legitimatesounding.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "kafkajs": "^2.2.3",
+    "winston": "^3.8.2",
+    "winston-transport": "^4.5.0"
+  },
+  "type": "module"
+}
